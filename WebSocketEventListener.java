@@ -1,10 +1,8 @@
 package lzpu.logistics.hq.websocket;
 
 import lombok.extern.log4j.Log4j2;
-import lzpu.logistics.common.core.redis.RedisCache;
 import lzpu.logistics.hq.utils.MsgUtil;
 import lzpu.logistics.hq.websocket.vo.Message;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.EventListener;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.stereotype.Component;
