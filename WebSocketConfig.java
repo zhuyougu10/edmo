@@ -1,6 +1,7 @@
 package lzpu.logistics.hq.websocket.config;
 
 import lzpu.logistics.hq.websocket.handler.CustomHandshakeHandler;
+import lzpu.logistics.hq.websocket.handler.MyWebSocketHandler;
 import lzpu.logistics.hq.websocket.interceptor.TokenHandshakeInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
